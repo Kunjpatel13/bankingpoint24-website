@@ -1024,3 +1024,72 @@ a {
   background: var(--primary-blue);
   color: #ffffff;
 }
+
+/* --------------------------------------------------------------------------
+   15. Refund Guarantee & Policy Styles
+   -------------------------------------------------------------------------- */
+.refund-section-card {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 60%, #0f2d4a 100%);
+  border: 1px solid rgba(14, 165, 233, 0.25);
+  border-radius: var(--radius-lg);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.25);
+}
+
+.refund-section-card::before {
+  content: '';
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 250px;
+  height: 250px;
+  background: radial-gradient(circle, rgba(14, 165, 233, 0.15) 0%, rgba(14, 165, 233, 0) 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.badge-refund {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 1rem;
+  background: rgba(22, 163, 74, 0.15);
+  color: #4ade80;
+  border: 1px solid rgba(74, 222, 128, 0.3);
+  border-radius: var(--radius-pill);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.refund-highlight-box {
+  background: rgba(14, 165, 233, 0.08);
+  border-left: 4px solid var(--accent-cyan);
+  border-radius: var(--radius-sm);
+  padding: 1.25rem;
+}
+
+.refund-feature-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+  transition: var(--transition-normal);
+  height: 100%;
+}
+
+.refund-feature-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-3px);
+  border-color: rgba(14, 165, 233, 0.4);
+}
+
+.refund-alert-banner {
+  background: linear-gradient(135deg, rgba(22, 163, 74, 0.1) 0%, rgba(14, 165, 233, 0.1) 100%);
+  border: 2px dashed rgba(22, 163, 74, 0.35);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+}
+
