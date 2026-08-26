@@ -20,10 +20,6 @@ const TEMPLATES = {
       <!-- Logo -->
       <a class="navbar-brand navbar-brand-logo" href="index.html">
         <img src="images/logo/2.png" alt="BANKINGPOINT24 Logo" class="brand-logo-img">
-        <div class="brand-text-block">
-          <span class="brand-title">BANKINGPOINT24</span>
-          <span class="brand-subtitle">Rutva Multiservices LLP</span>
-        </div>
       </a>
 
       <!-- Mobile Toggler -->
@@ -41,6 +37,7 @@ const TEMPLATES = {
           <li class="nav-item"><a class="nav-link nav-link-custom" href="services.html">Services</a></li>
           <li class="nav-item"><a class="nav-link nav-link-custom" href="why-us.html">Why Us</a></li>
           <li class="nav-item"><a class="nav-link nav-link-custom" href="partner.html">Partner With Us</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="refund-policy.html">Refund Policy</a></li>
           <li class="nav-item"><a class="nav-link nav-link-custom" href="contact.html">Contact</a></li>
         </ul>
 
@@ -58,59 +55,69 @@ const TEMPLATES = {
   <div class="container">
     <div class="row g-4 mb-4">
       <!-- Brand Info -->
-      <div class="col-lg-4 col-md-6">
+      <div class="col-lg-3 col-md-6">
         <div class="d-flex align-items-center gap-2 mb-3">
           <img src="images/logo/2.png" alt="BANKINGPOINT24 Logo" style="height:40px; width:auto;">
-          <div>
-            <span class="text-white font-bold fs-5 d-block">BANKINGPOINT24</span>
-            <span class="text-cyan fs-8 font-bold d-block">Rutva Multiservices LLP</span>
-          </div>
         </div>
         <p class="fs-7 text-light-subtle mb-2">Operated by <strong>Rutva Multiservices LLP</strong></p>
-        <p class="fs-7 text-light-subtle">
+        <p class="fs-7 text-light-subtle mb-0">
           One Platform. Multiple Services. Better Business. Empowering businesses with digital services and reliable
           technology.
         </p>
       </div>
 
-      <!-- Quick Links -->
+      <!-- Quick Links & Services -->
       <div class="col-lg-2 col-md-6">
-        <h6 class="footer-title">Company</h6>
+        <h6 class="footer-title">Navigation</h6>
         <ul class="footer-links">
           <li><a href="about.html">About Us</a></li>
           <li><a href="why-us.html">Why Us</a></li>
           <li><a href="partner.html">Partner With Us</a></li>
+          <li><a href="pos.html">POS Services</a></li>
+          <li><a href="qr-code.html">QR Code Services</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </div>
 
-      <!-- Service Links -->
+      <!-- Contact & Office Info -->
       <div class="col-lg-3 col-md-6">
-        <h6 class="footer-title">Services</h6>
-        <ul class="footer-links">
-          <li><a href="pos.html">POS Services</a></li>
-          <li><a href="qr-code.html">QR Code Services</a></li>
-          <li><a href="travel.html">Travel Services</a></li>
-          <li><a href="insurance.html">Insurance Services</a></li>
-          <li><a href="grocery.html">Grocery Services</a></li>
-          <li><a href="education.html">Education Services</a></li>
-          <li><a href="products-services.html">Products &amp; Services</a></li>
-        </ul>
-      </div>
-
-      <!-- Support & Legal -->
-      <div class="col-lg-3 col-md-6">
-        <h6 class="footer-title">Legal &amp; Support</h6>
+        <h6 class="footer-title">Legal &amp; Office</h6>
         <ul class="footer-links mb-3">
           <li><a href="privacy-policy.html">Privacy Policy</a></li>
           <li><a href="terms.html">Terms &amp; Conditions</a></li>
           <li><a href="refund-policy.html">Refund &amp; Cancellation</a></li>
         </ul>
-        <h6 class="footer-title">Contact</h6>
+        <h6 class="footer-title">Head Office</h6>
         <p class="fs-8 text-light-subtle mb-1"><i class="bi bi-geo-alt me-1 text-cyan"></i> 203, H M Patel Trade
-          center, Mota bazar, V V Nagar, Anand, Gujarat - 388120</p>
-        <p class="fs-8 text-light-subtle mb-1"><i class="bi bi-telephone me-1"></i> +91 7069300077</p>
-        <p class="fs-8 text-light-subtle mb-0"><i class="bi bi-envelope me-1"></i> rutvamultiservices@gmail.com</p>
+          Center, Mota Bazar, V V Nagar, Anand, Gujarat - 388120</p>
+        <p class="fs-8 text-light-subtle mb-1"><i class="bi bi-telephone me-1"></i> <a href="tel:+917069300077" class="text-light-subtle text-decoration-none">+91 7069300077</a></p>
+        <p class="fs-8 text-light-subtle mb-0"><i class="bi bi-envelope me-1"></i> <a href="mailto:rutvamultiservices@gmail.com" class="text-light-subtle text-decoration-none">rutvamultiservices@gmail.com</a></p>
+      </div>
+
+      <!-- Grievance Redressal / Customer Support -->
+      <div class="col-lg-4 col-md-6">
+        <h6 class="footer-title text-cyan"><i class="bi bi-shield-check me-1"></i> Grievance Redressal / Support</h6>
+        <div class="p-3 rounded-3 bg-white bg-opacity-10 border border-white border-opacity-15">
+          <div class="d-flex align-items-center gap-2 mb-2">
+            <div class="icon-box-sm bg-cyan text-navy rounded-circle p-1 d-flex align-items-center justify-content-center" style="width:28px; height:28px; font-size:0.85rem;">
+              <i class="bi bi-person-badge"></i>
+            </div>
+            <div>
+              <span class="fs-7 text-white font-bold d-block">Jayesh Barot</span>
+              <span class="fs-8 text-cyan d-block">Chief Operation Officer</span>
+            </div>
+          </div>
+          <div class="border-top border-white border-opacity-10 pt-2 mt-2">
+            <p class="fs-8 text-light-subtle mb-1">
+              <i class="bi bi-envelope me-1 text-cyan"></i> Email:
+              <a href="mailto:rutvamultiservices@gmail.com" class="text-white text-decoration-none font-bold">rutvamultiservices@gmail.com</a>
+            </p>
+            <p class="fs-8 text-light-subtle mb-0">
+              <i class="bi bi-telephone-fill me-1 text-cyan"></i> Contact:
+              <a href="tel:8758068295" class="text-cyan font-bold text-decoration-none">8758068295</a>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
 
